@@ -53,6 +53,7 @@ import coffee.client.feature.command.impl.TitleLag;
 import coffee.client.feature.command.impl.Toggle;
 import coffee.client.feature.command.impl.VClip;
 import coffee.client.feature.command.impl.ViewNbt;
+import coffee.client.feature.command.impl.SnowballCrasher;
 import coffee.client.helper.util.Utils;
 
 import java.util.ArrayList;
@@ -139,6 +140,7 @@ public class CommandRegistry {
         vanillaCommands.add(new ApplyEffect());
         vanillaCommands.add(new BaritoneCommand());
         vanillaCommands.add(new Search());
+        vanillaCommands.add(new SnowballCrasher());
 
         rebuildSharedCommands();
     }
